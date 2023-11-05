@@ -1,0 +1,77 @@
+
+/* SFONDO */
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    font-family: mulish;
+}
+
+/* BOX CONTENENTE HEADER, NAV E MAIN */
+#main-box{
+    width: 55%;
+    padding: 80px;
+    margin: auto;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* HEADER (LOGO E SLOGAN) */
+#logo{
+    width: auto;
+    margin: auto;
+    height: 100px;
+}
+
+h1{
+    width: auto;
+    margin: 5px;
+    font-size: x-large;
+}
+
+header, nav{
+    text-align: center;
+    color: lime;
+}
+
+
+/* NAV (INPUT MONOPATTINO) */
+nav{
+    padding: 10px;
+    background-color: lime;
+}
+
+
+/* MAIN (MONOPATTINI DISPONIBILI) */
+main{
+    color: white;
+}
+
+input, h2{
+    display: inline-block;
+    margin-bottom: auto;
+}
+
+#via:before{
+    content: "\21A6";
+}
+
+/* STATO RICARICA */
+#box1, #box2, #box3{
+    height: 25px;
+    border-radius: 5px;
+}
+
+#box1{
+    width: 40%;
+    background-color: greenyellow;
+}
+
+#box2{
+    width: 60%;
+    background-color: green; 
+}
+
+#box3{
+    width: 20%;
+    background-color: red; 
+}
